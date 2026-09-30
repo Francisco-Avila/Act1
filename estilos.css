@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8f8f8f;
+}
+
+main {
+    display: flex;
+}
+
+#barra_horizontal {
+    width: 20%;
+    background-color: #b5b5b5;
+    padding: 20px;
+}
+
+#barra_horizontal p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#barra_horizontal ol {
+    padding-left: 20px;
+}
+
+#barra_horizontal li {
+    margin: 10px 0;
+}
+
+#barra_horizontal a {
+    text-decoration: none;
+    color: black;
+}
+
+.colum {
+    width: 80%;
+    padding: 20px;
+}
+
+.renglon {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.renglon article {
+    width: 25%;
+    height: 150px;
+    background-color: #a8a8a8;
+    border: 1px solid #555555;
+    padding: 10px;
+}
+
+.renglon article p {
+    font-size: 13px;
+    text-align: center;
+}
+
+.renglon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #b5b5b5;
+    padding: 15px 20px;
+    border-top: 1px solid #555555;
+}
+
+footer p {
+    margin-top: 8px;
+    font-size: 14px;
+}
